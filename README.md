@@ -27,7 +27,7 @@ OLIST2/
 ├── Prediccion ventas Olist        # → Prediccion_Ventas_Olist.ipynb (ML Forecasting)
 ├── script olist                   # → script_olist.sql (SQL Analysis Queries)
 ├── create_table.sql                    # Database schema creation
-└── import_data.sql                     # Data ingestion scripts
+└── import_data.sql  
 ```
 
 ## 🚀 Getting Started
@@ -98,6 +98,7 @@ pip install plotly jupyter
 
 ### Phase 4: Business Intelligence Dashboard
 - **Tool**: Power BI
+- **Dashboard Link**: [Dashboard Olist](https://app.powerbi.com/groups/me/reports/1aa989ee-bd44-4248-81c5-faa9e2c2b264/6a57c579bf6e83c75ac7?experience=power-bi)
 - **Components**:
   - Revenue trends and KPI monitoring
   - Regional sales distribution
@@ -175,20 +176,3 @@ engine = create_engine(f"postgresql://{conn_params['user']}:{conn_params['passwo
 - [ ] Customer lifetime value prediction
 - [ ] Recommendation system implementation
 - [ ] Automated model retraining pipeline
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/enhancement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/enhancement`)
-5. Create Pull Request
-
-
-## 📞 Contact
-
-For questions or collaboration opportunities, please reach out through the project repository.
-
----
-
-**Built with** ❤️ **for data-driven business intelligence and predictive analytics**
